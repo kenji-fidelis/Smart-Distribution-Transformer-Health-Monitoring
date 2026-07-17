@@ -1,4 +1,6 @@
 # Transformer Health Monitoring System
+[Please refer to the Problem Definition PDF](Smart Distribution Transformer Health Monitoring.pdf)
+
 ## Introduction
 An IoT-based transformer health monitoring prototype built using the ESP32. The system monitors transformer temperature (DS18B20), ambient conditions (DHT22), simulated load factor, and ADC voltage, then calculates a real-time health score using a predictive stress model. Sensor data is transmitted to Firebase for live visualization, while historical CSV data can be analyzed using Python to generate maintenance reports and health trend graphs.
 
